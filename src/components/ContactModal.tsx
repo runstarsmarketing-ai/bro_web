@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { X, Send, CheckCircle2, Sparkles } from 'lucide-react';
+import { X, Send, CheckCircle2, Sparkles, Mail } from 'lucide-react';
 import { ContactFormData } from '../types';
+import { EDITOR_INFO } from '../data/portfolioData';
 
 interface ContactModalProps {
   isOpen: boolean;
@@ -22,14 +23,36 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
 
   if (!isOpen) return null;
 
+  const getMailtoUrl = () => {
+    const recipient = EDITOR_INFO.email;
+    const subject = encodeURIComponent(`New Project Inquiry (${formData.service}) - ${formData.name}`);
+    const body = encodeURIComponent(
+      `Hello ${EDITOR_INFO.name},\n\n` +
+      `I would like to start a project with you!\n\n` +
+      `--- CLIENT DETAILS ---\n` +
+      `• Name: ${formData.name}\n` +
+      `• Email: ${formData.email}\n` +
+      `• Phone: ${formData.phone || 'Not provided'}\n` +
+      `• Service Required: ${formData.service}\n` +
+      `• Estimated Budget: ${formData.budget}\n\n` +
+      `--- PROJECT DETAILS ---\n` +
+      `${formData.message}\n`
+    );
+    return `mailto:${recipient}?subject=${subject}&body=${body}`;
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
 
+    const url = getMailtoUrl();
+    // Redirect to default email app
+    window.location.href = url;
+
     setTimeout(() => {
       setLoading(false);
       setSubmitted(true);
-    }, 800);
+    }, 600);
   };
 
   const handleReset = () => {
@@ -58,22 +81,32 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
         </button>
 
         {submitted ? (
-          <div className="py-10 text-center flex flex-col items-center">
+          <div className="py-8 text-center flex flex-col items-center">
             <div className="w-16 h-16 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center mb-4 border border-emerald-500/40">
               <CheckCircle2 className="w-8 h-8" />
             </div>
 
-            <h3 className="text-2xl font-bold text-white mb-2">Inquiry Received!</h3>
-            <p className="text-zinc-300 text-sm max-w-md leading-relaxed mb-6">
-              Thank you for reaching out, <span className="text-white font-bold">{formData.name}</span>! I will review your project requirements and respond with a custom quote soon.
+            <h3 className="text-2xl font-bold text-white mb-2">Mail App Opened!</h3>
+            <p className="text-zinc-300 text-xs sm:text-sm max-w-md leading-relaxed mb-6">
+              Your default email app (Gmail / Mail) has been triggered with your details pre-filled to <span className="text-white font-mono font-bold">{EDITOR_INFO.email}</span>. Click send in your mail app to deliver the message!
             </p>
 
-            <button
-              onClick={handleReset}
-              className="bg-white hover:bg-zinc-200 text-black px-8 py-3 rounded-xl text-xs font-bold shadow-xl shadow-white/10"
-            >
-              Done
-            </button>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 w-full">
+              <a
+                href={getMailtoUrl()}
+                className="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white px-5 py-2.5 rounded-xl text-xs font-bold border border-white/10 flex items-center justify-center gap-2"
+              >
+                <Mail className="w-4 h-4" />
+                <span>Open Mail App Again</span>
+              </a>
+
+              <button
+                onClick={handleReset}
+                className="w-full sm:w-auto bg-white hover:bg-zinc-200 text-black px-6 py-2.5 rounded-xl text-xs font-bold shadow-xl shadow-white/10"
+              >
+                Done
+              </button>
+            </div>
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="space-y-4">
