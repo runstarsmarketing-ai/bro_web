@@ -207,7 +207,7 @@ export const TimelineEditor: React.FC = () => {
             {v2Visible && (
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center pointer-events-none transition-all">
                 <span className="inline-block bg-black/85 backdrop-blur-xl px-4 py-1.5 sm:px-5 sm:py-2 rounded-full text-white font-black text-xs sm:text-sm tracking-widest uppercase border border-white/20 shadow-2xl">
-                  STORIES THAT CONNECT
+                  
                 </span>
               </div>
             )}
@@ -313,7 +313,7 @@ export const TimelineEditor: React.FC = () => {
                     }`}
                     style={{ left: '25%', width: '50%' }}
                   >
-                    <span className="truncate">STORIES THAT CONNECT (Text)</span>
+                    <span className="truncate">Timeline</span>
                   </div>
                 </div>
               </div>
