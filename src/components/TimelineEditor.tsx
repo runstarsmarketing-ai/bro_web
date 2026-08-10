@@ -346,9 +346,9 @@ export const TimelineEditor: React.FC = () => {
             {/* Subtle Gradient */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20 pointer-events-none" />
 
-            {/* Glowing Text Overlay for V2 Track */}
+            {/* Glowing Text Overlay for V2 Track - Lower Third Position */}
             {v2Visible && (
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center pointer-events-none">
+              <div className="absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2 text-center pointer-events-none z-10">
                 <span className="inline-block bg-black/85 backdrop-blur-md px-3.5 py-1 sm:px-4 sm:py-1.5 rounded-full text-white font-black text-xs sm:text-sm tracking-widest uppercase border border-white/20 shadow-2xl">
                   STORIES THAT CONNECT
                 </span>
