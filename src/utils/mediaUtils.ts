@@ -79,7 +79,7 @@ export const CUSTOM_PROJECTS_KEY = 'efditor_custom_projects';
 export const HERO_VIDEO_KEY = 'efditor_hero_video_url';
 
 export const DEFAULT_EDITOR_PHOTO =
-  'https://freeimage.host/i/C6rbrLN';
+  'https://kommodo.ai/i/0LWnyNuZQl2VspV0Yajv';
 
 export function getSavedEditorPhoto(): string {
   if (typeof window !== 'undefined') {
