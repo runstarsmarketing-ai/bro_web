@@ -79,7 +79,7 @@ export const CUSTOM_PROJECTS_KEY = 'efditor_custom_projects';
 export const HERO_VIDEO_KEY = 'efditor_hero_video_url';
 
 export const DEFAULT_EDITOR_PHOTO =
-  'https://cdn.uploadtourl.com/ea39b065-cef3-453c-af84-21c3ed750441_editorrr.jfif';
+  'https://freeimage.host/i/C6rbrLN';
 
 export function getSavedEditorPhoto(): string {
   if (typeof window !== 'undefined') {
