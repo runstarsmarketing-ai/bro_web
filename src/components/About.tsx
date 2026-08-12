@@ -65,7 +65,7 @@ export const About: React.FC<AboutProps> = ({ onOpenVideoModal }) => {
               <button
                 onClick={() =>
                   onOpenVideoModal(
-                    'https://cdn.uploadtourl.com/ba144bc4-e650-4af2-84bb-ab2ba76894de_output_progressive_b5ce18fe-f512-4c91-8fa8-63df0560925e.mp4',
+                    'https://www.image2url.com/r2/default/videos/1786506675087-889095ef-9af2-48df-b3eb-a9697156aadb.mp4',
                     'Sunil Pareek - Studio Editing Showreel'
                   )
                 }
