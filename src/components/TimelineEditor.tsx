@@ -24,7 +24,7 @@ import {
   Maximize2
 } from 'lucide-react';
 
-const FALLBACK_HERO_VIDEO = 'https://cdn.uploadtourl.com/ba144bc4-e650-4af2-84bb-ab2ba76894de_output_progressive_b5ce18fe-f512-4c91-8fa8-63df0560925e.mp4';
+const FALLBACK_HERO_VIDEO = 'https://www.image2url.com/r2/default/videos/1786506675087-889095ef-9af2-48df-b3eb-a9697156aadb.mp4';
 
 export const TimelineEditor: React.FC = () => {
   const [isPlaying, setIsPlaying] = useState<boolean>(true);
