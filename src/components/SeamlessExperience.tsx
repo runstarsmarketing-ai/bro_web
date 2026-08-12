@@ -24,7 +24,7 @@ export const SeamlessExperience: React.FC<SeamlessExperienceProps> = ({
                   <span className="text-[10px] text-zinc-500 font-mono ml-2">editor.com/showcase</span>
                 </div>
                 <img
-                  src="https://cdn.uploadtourl.com/8cdb6d74-7187-41d3-a225-f91b1f65119e_pccccccccccc.jfif"
+                  src="https://user23064.na.imgto.link/public/20260812/1765885671488.avif"
                   alt="Editor on Laptop"
                   className="w-full aspect-video object-cover rounded-xl border border-white/10"
                 />
@@ -34,7 +34,7 @@ export const SeamlessExperience: React.FC<SeamlessExperienceProps> = ({
               <div className="absolute -bottom-4 -right-2 w-36 sm:w-44 bg-zinc-950 border border-white/20 rounded-2xl p-2 shadow-2xl rotate-3 group-hover:rotate-0 transition-transform duration-300">
                 <div className="w-8 h-1 bg-zinc-700 rounded-full mx-auto mb-1.5" />
                 <img
-                  src="https://cdn.uploadtourl.com/92cf6de8-195e-4277-98ff-c03941d43669_bhaiuyaaaaaaaaaaa.jfif"
+                  src="https://user23064.na.imgto.link/public/20260812/1765885679364.avif"
                   alt="Mobile Editor View"
                   className="w-full aspect-[9/16] object-cover rounded-lg"
                 />
