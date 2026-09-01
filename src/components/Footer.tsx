@@ -96,7 +96,7 @@ export const Footer: React.FC = () => {
             </h4>
             <ul className="space-y-2 text-xs">
               <li><span className="text-zinc-300">Adobe Premiere Pro & After Effects</span></li>
-              <li><span className="text-zinc-300">DaVinci Resolve Color Grading</span></li>
+              <li><span className="text-zinc-300">Color Grading</span></li>
               <li><span className="text-zinc-300">Viral Short-Form Reels & Shorts</span></li>
               <li><span className="text-zinc-300">Sound Design & Dynamic Audio Mixing</span></li>
             </ul>
