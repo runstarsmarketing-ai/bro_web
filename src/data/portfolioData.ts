@@ -24,7 +24,7 @@ export const EDITOR_INFO = {
   bio: "Hi, I'm Sunil Pareek — Professional Video Editor & Visual Storyteller. I transform raw footage into high-retention, high-converting cinematic videos for brands, YouTube creators, documentary projects, and social media channels.",
   experienceYears: '5+',
   completedProjects: '100+',
-  satisfactionRate: '100%',
+  satisfactionRate: '99%',
   email: 'sunileditor9840@gmail.com',
   phone: '+91 932824-1585',
   location: 'Jaipur / Rajasthan, India (Available Worldwide Remote)',
@@ -37,7 +37,7 @@ export const EDITOR_INFO = {
 };
 
 export const ABOUT_STATS = [
-  { label: 'Years of Experience', value: '5+' },
+  { label: 'Years of Experience', value: '3+' },
   { label: 'Projects Completed', value: '100+' },
   { label: 'Client Satisfaction', value: '99%' },
   { label: 'Hours', value: '300+' },
