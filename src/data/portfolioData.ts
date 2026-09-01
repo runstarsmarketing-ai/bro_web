@@ -22,7 +22,7 @@ export const EDITOR_INFO = {
   name: 'Sunil Pareek',
   title: 'Lead Video Editor & Visual Storyteller',
   bio: "Hi, I'm Sunil Pareek — Professional Video Editor & Visual Storyteller. I transform raw footage into high-retention, high-converting cinematic videos for brands, YouTube creators, documentary projects, and social media channels.",
-  experienceYears: '5+',
+  experienceYears: '3+',
   completedProjects: '100+',
   satisfactionRate: '99%',
   email: 'sunileditor9840@gmail.com',
