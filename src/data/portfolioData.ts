@@ -68,7 +68,7 @@ export const PORTFOLIO_PROJECTS: Project[] = [
     videoUrl: 'https://youtu.be/KP7TpVETLzo?si=QXgFUGFX2DkQVEx0',
     description: 'A dynamic talking-head edit featuring clean cuts, punch-in zooms, animated captions, motion graphics, and engaging visual effects designed to keep the viewer hooked throughout.',
     client: 'Influencer',
-    toolsUsed: ['Premiere Pro', 'DaVinci Resolve'],
+    toolsUsed: ['Premiere Pro'],
     featured: true,
   },
   {
@@ -107,7 +107,7 @@ export const PORTFOLIO_PROJECTS: Project[] = [
     videoUrl: 'https://youtu.be/oiUkNneKl2A?si=7BSJZtxuGCuRr5FX',
     description: 'A polished talking-head edit focused on clear storytelling, dynamic pacing, engaging captions, seamless B-roll integration, and subtle motion graphics to keep viewers engaged.',
     client: 'Influencer',
-    toolsUsed: ['CapCut'],
+    toolsUsed: ['Premiere Pro'],
     featured: false,
   },
   {
@@ -120,7 +120,7 @@ export const PORTFOLIO_PROJECTS: Project[] = [
     videoUrl: 'https://youtu.be/NneZOhFIuWI?si=OIihaDcqTBmdWwWj',
     description: 'A refined expert-led edit combining natural pacing, cinematic B-roll, dynamic typography, smooth transitions, and precise cuts to transform informative content into an engaging visual story.',
     client: 'Influencer',
-    toolsUsed: ['Premiere Pro', 'CapCut Pro'],
+    toolsUsed: ['Premiere Pro'],
     featured: false,
   },
 ];
