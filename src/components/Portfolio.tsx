@@ -47,7 +47,7 @@ export const Portfolio: React.FC<PortfolioProps> = ({ onOpenVideoModal }) => {
     localStorage.setItem(CUSTOM_PROJECTS_KEY, JSON.stringify(customOnly));
   };
 
-  const categories: Category[] = ['All', 'Long Videos', 'Reels', 'Ads', 'Short Films'];
+  const categories: Category[] = ['All', 'Long Videos', 'Reels', 'Podcast'];
 
   const filteredProjects = projectsList.filter((project) => {
     if (selectedCategory === 'All') return true;
