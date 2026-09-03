@@ -47,14 +47,14 @@ export const PORTFOLIO_PROJECTS: Project[] = [
   
   {
     id: 'product-ad-sunil',
-    title: 'Tech Comparison Storytelling',
+    title: 'Data Analyst Roadmap 2026 | Land Your First Data Analytics Job',
     category: 'Long Videos',
     categoryLabel: 'LONG VIDEO',
     duration: '07:12',
     thumbnail: '',
-    videoUrl: 'https://youtu.be/vWQa9916Gcc?si=3S7BALqQ93hgfCUW',
+    videoUrl: 'https://youtu.be/gN5Fdkcyfug?si=m98fxSXG1CCsPTdO',
     description: 'A fast-paced technical comparison edit combining talking-head footage, screen recordings, animated text, visual callouts, and clean transitions to make complex developer topics easy to follow.',
-    client: 'Influencer',
+    client: 'PW Medharthi',
     toolsUsed: ['Adobe Premiere Pro'],
     featured: true,
   },
