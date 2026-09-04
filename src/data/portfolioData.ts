@@ -188,6 +188,19 @@ export const PORTFOLIO_PROJECTS: Project[] = [
     toolsUsed: ['Premiere Pro'],
     featured: false,
   },
+    {
+    id: 'cinematic-reels-sunil',
+    title: 'Presenter-Led Storytelling',
+    category: 'Podcast',
+    categoryLabel: 'PODCAST',
+    duration: '02:34',
+    thumbnail: '',
+    videoUrl: 'https://youtu.be/sgnN7tYUzs4',
+    description: 'A refined expert-led edit combining natural pacing, cinematic B-roll, dynamic typography, smooth transitions, and precise cuts to transform informative content into an engaging visual story.',
+    client: 'Influencer',
+    toolsUsed: ['Premiere Pro'],
+    featured: false,
+  },
  
 ];
 
