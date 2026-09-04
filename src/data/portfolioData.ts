@@ -52,7 +52,7 @@ export const PORTFOLIO_PROJECTS: Project[] = [
     categoryLabel: 'LONG VIDEO',
     duration: '07:12',
     thumbnail: '',
-    videoUrl: 'https://youtu.be/vWQa9916Gcc?si=3S7BALqQ93hgfCUW',
+    videoUrl: 'https://youtu.be/gN5Fdkcyfug',
     description: 'A fast-paced technical comparison edit combining talking-head footage, screen recordings, animated text, visual callouts, and clean transitions to make complex developer topics easy to follow.',
     client: 'Influencer',
     toolsUsed: ['Adobe Premiere Pro'],
