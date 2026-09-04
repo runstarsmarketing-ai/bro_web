@@ -193,7 +193,7 @@ export const PORTFOLIO_PROJECTS: Project[] = [
     title: 'Presenter-Led Storytelling',
     category: 'Podcast',
     categoryLabel: 'PODCAST',
-    duration: '02:34',
+    duration: '34:36',
     thumbnail: '',
     videoUrl: 'https://youtu.be/sgnN7tYUzs4',
     description: 'A refined expert-led edit combining natural pacing, cinematic B-roll, dynamic typography, smooth transitions, and precise cuts to transform informative content into an engaging visual story.',
