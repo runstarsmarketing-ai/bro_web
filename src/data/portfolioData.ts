@@ -111,7 +111,7 @@ export const PORTFOLIO_PROJECTS: Project[] = [
     featured: false,
   },
     {
-    id: 'travel-doc-sunil',
+    id: 'travel-doc-suniel',
     title: 'Creator-Focused Edit',
     category: 'Long Videos',
     categoryLabel: 'LONG VIDEO',
@@ -124,7 +124,7 @@ export const PORTFOLIO_PROJECTS: Project[] = [
     featured: false,
   },
   {
-    id: 'cinematic-reels-sunil',
+    id: 'cinematic-reels-surnil',
     title: 'Presenter-Led Storytelling',
     category: 'Reels',
     categoryLabel: 'REELS',
@@ -137,7 +137,7 @@ export const PORTFOLIO_PROJECTS: Project[] = [
     featured: false,
   },
   {
-    id: 'cinematic-reels-sunil',
+    id: 'cinematic-reels-rsunil',
     title: 'Presenter-Led Storytelling',
     category: 'Reels',
     categoryLabel: 'REELS',
@@ -150,7 +150,7 @@ export const PORTFOLIO_PROJECTS: Project[] = [
     featured: false,
   },
     {
-    id: 'cinematic-reels-sunil',
+    id: 'cinemratic-reels-sunil',
     title: 'Presenter-Led Storytelling',
     category: 'Reels',
     categoryLabel: 'REELS',
@@ -163,7 +163,7 @@ export const PORTFOLIO_PROJECTS: Project[] = [
     featured: false,
   },
      {
-    id: 'cinematic-reels-sunil',
+    id: 'cinematic-reels-sunitl',
     title: 'Presenter-Led Storytelling',
     category: 'Reels',
     categoryLabel: 'REELS',
@@ -176,7 +176,7 @@ export const PORTFOLIO_PROJECTS: Project[] = [
     featured: false,
   },
      {
-    id: 'cinematic-reels-sunil',
+    id: 'cinematic-rtreels-sunil',
     title: 'Presenter-Led Storytelling',
     category: 'Reels',
     categoryLabel: 'REELS',
@@ -189,7 +189,7 @@ export const PORTFOLIO_PROJECTS: Project[] = [
     featured: false,
   },
     {
-    id: 'cinematic-reels-sunil',
+    id: 'cinematic-reels-surynil',
     title: 'Presenter-Led Storytelling',
     category: 'Podcast',
     categoryLabel: 'PODCAST',
