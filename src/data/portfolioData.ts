@@ -267,7 +267,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: '1',
     name: 'Nirupama',
     role: 'Certified Nutrition Coach',
-    company: '100k+ Youtube Channel',
+    company: '350k+ Youtube Channel',
     avatar: 'https://user23064.na.imgto.link/public/20260904/channels4-profile.avif',
     comment: 'I’ve had a great experience working with Sunil. He understands the topic really well and edits the videos accordingly. He is highly responsive to feedback and amendments, and consistently punctual with deadlines. Highly recommended! ',
     rating: 5,
