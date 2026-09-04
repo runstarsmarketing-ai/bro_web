@@ -265,11 +265,11 @@ export const SERVICES: Service[] = [
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: '1',
-    name: 'Unknown',
-    role: 'Content Creator',
+    name: 'Nirupama',
+    role: 'Certified Nutrition Coach',
     company: '100k+ Youtube Channel',
-    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
-    comment: 'Working with Sunil Pareek was an amazing experience! The video pacing was beyond my expectations and boosted our viewer retention by 40%.',
+    avatar: 'https://user23064.na.imgto.link/public/20260904/channels4-profile.avif',
+    comment: 'I’ve had a great experience working with Sunil. He understands the topic really well and edits the videos accordingly. He is highly responsive to feedback and amendments, and consistently punctual with deadlines. Highly recommended! ',
     rating: 5,
   },
   {
