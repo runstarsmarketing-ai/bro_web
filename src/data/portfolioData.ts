@@ -110,11 +110,24 @@ export const PORTFOLIO_PROJECTS: Project[] = [
     toolsUsed: ['Premiere Pro'],
     featured: false,
   },
+    {
+    id: 'travel-doc-sunil',
+    title: 'Creator-Focused Edit',
+    category: 'Long Videos',
+    categoryLabel: 'LONG VIDEO',
+    duration: '07:13',
+    thumbnail: '',
+    videoUrl: 'https://youtu.be/vWQa9916Gcc',
+    description: 'A polished talking-head edit focused on clear storytelling, dynamic pacing, engaging captions, seamless B-roll integration, and subtle motion graphics to keep viewers engaged.',
+    client: 'Influencer',
+    toolsUsed: ['Premiere Pro'],
+    featured: false,
+  },
   {
     id: 'cinematic-reels-sunil',
     title: 'Presenter-Led Storytelling',
-    category: 'Long Videos',
-    categoryLabel: 'LONG VIDEO',
+    category: 'Reels',
+    categoryLabel: 'REELS',
     duration: '00:34',
     thumbnail: '',
     videoUrl: 'https://youtu.be/oiUkNneKl2A',
@@ -175,19 +188,7 @@ export const PORTFOLIO_PROJECTS: Project[] = [
     toolsUsed: ['Premiere Pro'],
     featured: false,
   },
-       {
-    id: 'cinematic-reels-sunil',
-    title: 'Presenter-Led Storytelling',
-    category: 'Reels',
-    categoryLabel: 'REELS',
-    duration: '07:13',
-    thumbnail: '',
-    videoUrl: 'https://youtu.be/FiXqHsEU0ww',
-    description: 'A refined expert-led edit combining natural pacing, cinematic B-roll, dynamic typography, smooth transitions, and precise cuts to transform informative content into an engaging visual story.',
-    client: 'Influencer',
-    toolsUsed: ['Premiere Pro'],
-    featured: false,
-  },
+ 
 ];
 
 export const PROCESS_STEPS: ProcessStep[] = [
